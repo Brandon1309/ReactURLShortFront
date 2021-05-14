@@ -11,18 +11,8 @@ const ShortenLinkForm = () => {
   };
   const handleClick = (e) => {
     e.preventDefault();
-    const getUrl = async () => {
-      try {
-        console.log("api called");
-        const res = await axios.get(
-          `https://api.shrtco.de/v2/shorten?url=${urlInput}`
-        );
-        setUrlShorten(res.data);
-      } catch (e) {
-        console.log("there was an error");
-      }
-    };
-    getUrl();
+    console.log("button clicked");
+    //
   };
   return (
     <div>
