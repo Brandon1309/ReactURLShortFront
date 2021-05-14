@@ -1,0 +1,122 @@
+.section-one {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    // background-image: url('../../assets/black-thread-light.png');
+
+
+    &__title {
+        font-size: 5rem;
+        text-align: center;
+
+    }
+
+    &__sub {
+        text-align: center;
+        font-size: 1.7rem;
+        color: var(--color-grey);
+
+    }
+
+    & img {
+        width: 20rem;
+        height: 20rem;
+        margin: 0 10rem;
+    }
+
+    & .main-btn {
+        margin: 2rem;
+
+    }
+
+    & .col-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10rem;
+    }
+}
+
+.shorten-link-form {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -4rem auto;
+    padding: 3rem;
+    border-radius: 20px;
+    background-color: var(--color-primary);
+    background-image: url('../../assets/always.png');
+    left: 0;
+    right: 0;
+    width: 60%;
+    height: 20vh;
+
+
+
+    & .input-cont {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    // &__input {}
+
+    // &__btn {}
+}
+
+.section-two {
+    background-color: var(--color-primary-off);
+    min-height: 130vh;
+    padding: 0 5rem;
+    color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: -10rem;
+
+    &__title {
+        font-size: 4rem;
+        // margin: 5rem 0;
+    }
+
+    &__desc {
+        font-size: 2rem;
+        padding: 0 20rem;
+        // margin: 0rem 52rem;
+        text-align: center;
+    }
+
+
+    & .cards {
+        display: flex;
+        // justify-content: space-around;
+        margin: 2rem;
+
+        & .card {
+            margin: 2rem;
+        }
+
+    }
+}
+
+.section-three {
+    background-color: var(--color-primary);
+    background-image: url('../../assets/always.png');
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+
+    clip-path: polygon(0 50px, 100% 0, 100% 180px, 0 100%);
+
+    &__title {
+        font-size: 4rem;
+    }
+
+}

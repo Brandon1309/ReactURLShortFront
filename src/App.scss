@@ -1,0 +1,30 @@
+@import './components/Navbar/NavbarStyles.scss';
+@import './components/sections/SectionsStyles.scss';
+@import './pages/homepage/HomepageStyles.scss';
+
+:root {
+    --color-primary: #301b3f;
+    --color-primary-off: #bdb7c2;
+    --color-secondary: #a5e1ad;
+    --color-black: #151515;
+    --color-grey: #aaaaaa;
+    --color-white: #f7f7f7;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
